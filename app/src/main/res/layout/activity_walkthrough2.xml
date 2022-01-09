@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".walkthrough">
+    tools:context=".walkthrough2">
 
     <ImageView
         android:id="@+id/imageView"
@@ -18,7 +18,7 @@
         app:layout_constraintEnd_toStartOf="@+id/imageView2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/dot" />
+        app:srcCompat="@drawable/dot2" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -27,6 +27,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="30dp"
+        android:onClick="skip"
         app:layout_constraintBottom_toTopOf="@+id/textView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView"
@@ -42,7 +43,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3"
-        app:srcCompat="@drawable/guys" />
+        app:srcCompat="@drawable/guys2" />
 
     <TextView
         android:id="@+id/textView2"
@@ -65,10 +66,10 @@
         android:layout_marginStart="11dp"
         android:layout_marginBottom="51dp"
         android:fontFamily="@font/arimo"
-        android:text="Focus on what matters most. Manage everything, from big projects to personal moments."
+        android:text="Remember everything important.
+A central place for your notes, ideas, lists and reminders."
         android:textColor="#000000"
         app:layout_constraintBottom_toTopOf="@+id/imageView3"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

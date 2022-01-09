@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MainActivity">
         <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
+            android:name=".walkthrough3"
+            android:exported="false" />
+        <activity
+            android:name=".walkthrough2"
+            android:exported="false" />
+        <activity
             android:name=".walkthrough"
             android:exported="false" />
         <activity
@@ -21,6 +30,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

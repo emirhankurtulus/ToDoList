@@ -6,17 +6,16 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class MainActivity extends AppCompatActivity {
+public class walkthrough2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
+        setContentView(R.layout.activity_walkthrough2);
     }
     public void skip (View View)
     {
-        Intent ikincisayfagecis=new Intent(MainActivity.this, walkthrough2.class);
+        Intent ikincisayfagecis=new Intent(walkthrough2.this, walkthrough3.class);
         startActivity(ikincisayfagecis);
     }
 }
