@@ -6,16 +6,17 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class walkthrough2 extends AppCompatActivity {
+public class signup extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_walkthrough2);
+        setContentView(R.layout.activity_signup);
     }
-    public void skip (View v)
+
+    public void sign (View View)
     {
-        Intent ikincisayfagecis=new Intent(walkthrough2.this, walkthrough3.class);
+        Intent ikincisayfagecis = new Intent(signup.this, login.class);
         startActivity(ikincisayfagecis);
     }
 }

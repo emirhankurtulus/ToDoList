@@ -13,10 +13,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+                Intent ikincisayfagecis = new Intent(MainActivity.this, walkthrough.class);
+                startActivity(ikincisayfagecis);
+
+        }
+
+
     }
-    public void skip (View View)
-    {
-        Intent ikincisayfagecis=new Intent(MainActivity.this, walkthrough2.class);
-        startActivity(ikincisayfagecis);
-    }
-}
+
+
+
