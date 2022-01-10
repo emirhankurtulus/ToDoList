@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MainActivity">
         <activity
+            android:name=".list"
+            android:exported="false" />
+        <activity
             android:name=".signup"
             android:exported="false" />
         <activity
