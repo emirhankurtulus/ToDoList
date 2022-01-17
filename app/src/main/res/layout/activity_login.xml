@@ -14,10 +14,10 @@
         android:layout_marginTop="14dp"
         android:layout_marginEnd="49dp"
         android:layout_marginBottom="9dp"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName4"
+        app:layout_constraintBottom_toTopOf="@+id/password"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/error"
         app:srcCompat="@drawable/base" />
 
     <ImageView
@@ -34,7 +34,7 @@
 
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/mail"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="60dp"
@@ -44,13 +44,13 @@
         android:ems="10"
         android:hint="e-mail"
         android:inputType="textEmailAddress"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName4"
+        app:layout_constraintBottom_toTopOf="@+id/password"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+        app:layout_constraintTop_toBottomOf="@+id/error" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName4"
+        android:id="@+id/password"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="60dp"
@@ -63,7 +63,7 @@
         app:layout_constraintBottom_toTopOf="@+id/imageView18"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
+        app:layout_constraintTop_toBottomOf="@+id/mail" />
 
     <TextView
         android:id="@+id/textView8"
@@ -84,7 +84,7 @@
         android:layout_marginTop="66dp"
         android:layout_marginEnd="60dp"
         android:layout_marginBottom="69dp"
-        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintBottom_toTopOf="@+id/error"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -116,14 +116,13 @@
         app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/error"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="34dp"
         android:shadowColor="#8749FB"
-        android:text="wrong mail or password!"
         android:textColor="#8749FB"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName3"
+        app:layout_constraintBottom_toTopOf="@+id/mail"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView15" />
@@ -133,10 +132,11 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginBottom="17dp"
+        android:onClick="sign"
         app:layout_constraintBottom_toTopOf="@+id/textView8"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4"
+        app:layout_constraintTop_toBottomOf="@+id/password"
         app:srcCompat="@drawable/sign" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

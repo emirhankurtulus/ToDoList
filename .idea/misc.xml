@@ -3,14 +3,30 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.26788036410923277" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.4197916666666667" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.4197916666666667" />
+        <entry key="app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.34427083333333336" />
         <entry key="app/src/main/res/drawable/rounded_corner.xml" value="0.3921875" />
-        <entry key="app/src/main/res/layout/activity_list.xml" value="0.3619791666666667" />
+        <entry key="app/src/main/res/layout/activity_deneme.xml" value="0.38958333333333334" />
+        <entry key="app/src/main/res/layout/activity_firstpage.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_home_page.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_home_page2.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/activity_list.xml" value="0.13440860215053763" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.3704710144927536" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.296195652173913" />
+        <entry key="app/src/main/res/layout/activity_notes.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_profile.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.3134057971014493" />
         <entry key="app/src/main/res/layout/activity_signup.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_upload.xml" value="0.3296875" />
         <entry key="app/src/main/res/layout/activity_walkthrough.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_walkthrough2.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_walkthrough3.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/content_main.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/fragment_transform.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/menu/bottom_navigation.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/menu/navigation_drawer.xml" value="0.4036458333333333" />
       </map>
     </option>
   </component>
@@ -19,5 +35,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.33" />
+      </ProjectState>
+    </option>
   </component>
 </project>

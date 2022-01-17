@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "807167472815",
+    "project_id": "todolist-c9bc0",
+    "storage_bucket": "todolist-c9bc0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:807167472815:android:5c6976e4574088f785105a",
+        "android_client_info": {
+          "package_name": "com.emirhan.topnote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "807167472815-ll4dd3tni9pgfdfbp80qsbhikh21jbg0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_-5dE8jSWvP7bfOsHlra0udmoQlbOYe4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "807167472815-ll4dd3tni9pgfdfbp80qsbhikh21jbg0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
