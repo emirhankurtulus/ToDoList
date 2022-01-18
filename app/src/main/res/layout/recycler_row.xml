@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/linearLayout14"
+        android:layout_width="0dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView33"
+            android:layout_width="wrap_content"
+            android:layout_height="99dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/orange" />
+
+        <TextView
+            android:id="@+id/subject"
+            android:layout_width="279dp"
+            android:layout_height="92dp"
+            android:layout_weight="1"
+            android:text="TextView"
+            android:textAlignment="viewStart"
+            android:textColor="#000000"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/imageView34"
+            android:layout_width="wrap_content"
+            android:layout_height="92dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/clickme" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

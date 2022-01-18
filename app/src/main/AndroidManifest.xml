@@ -12,34 +12,34 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MainActivity">
         <activity
-            android:name=".notes"
+            android:name=".view.ssss"
             android:exported="false" />
         <activity
-            android:name=".upload"
+            android:name=".view.upload"
             android:exported="false" />
         <activity
-            android:name=".profile"
+            android:name=".view.profile"
             android:exported="false" />
         <activity
-            android:name=".firstpage"
+            android:name=".view.firstpage"
             android:exported="false" />
         <activity
-            android:name=".signup"
+            android:name=".view.signup"
             android:exported="false" />
         <activity
-            android:name=".login"
+            android:name=".view.login"
             android:exported="false" />
         <activity
-            android:name=".walkthrough3"
+            android:name=".view.walkthrough3"
             android:exported="false" />
         <activity
-            android:name=".walkthrough2"
+            android:name=".view.walkthrough2"
             android:exported="false" />
         <activity
-            android:name=".walkthrough"
+            android:name=".view.walkthrough"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".view.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
