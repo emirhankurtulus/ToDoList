@@ -81,8 +81,8 @@ public void profile(View View)
     else
     {
         AlertDialog.Builder alert = new AlertDialog.Builder(this);
-        alert.setTitle("Do you want to discard this");
-        alert.setMessage("they will delete");
+        alert.setTitle("Do you want to discard this?");
+        alert.setMessage("they will be deleted");
         alert.setPositiveButton("yes", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
